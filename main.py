@@ -40,7 +40,7 @@ def discover():
     for addr, name in nearby_devices:
         if name == "ALPHA 1S":
             return addr
-
+    #print("ALPHA 1S addr is :" + addr)
 
 if __name__ == '__main__':
     main()
